@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.common{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: bisque;
+}
+#man{
+    img{
+        width: 70%;
+        height: 600px;
+        bottom: 0;
+    }
+    position: absolute;
+}
+
+#holl{
+    margin-top: 400px;
+    margin-left: 90px;
+    height: 500px;
+  
+
+
+    img{    
+        width: 110%;
+        height: 400px;  
+       padding: 10px 30px;
+    
+    }
+
+}
