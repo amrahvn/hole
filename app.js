@@ -19,8 +19,8 @@ window.addEventListener('load', function() {
     hollDiv.style.zIndex = '1';
 
     document.addEventListener('keydown', function(event) {
-        var keyCode = event.keyCode;
-        var step = 10;
+        let keyCode = event.keyCode;
+        let step = 10;
 
         if (keyCode === 37) {
 
@@ -46,8 +46,8 @@ window.addEventListener('load', function() {
 
     
     function checkCollision(div1, div2) {
-        var rect1 = div1.getBoundingClientRect();
-        var rect2 = div2.getBoundingClientRect();
+        let rect1 = div1.getBoundingClientRect();
+        let rect2 = div2.getBoundingClientRect();
         
         return (
             rect1.left < rect2.right &&
